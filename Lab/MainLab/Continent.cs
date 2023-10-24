@@ -7,7 +7,10 @@ namespace MainLab
         public string NameContinent { get; set; }
         public static int count { get; set; }
         public Сontinent(string nameContinent)
-        => NameContinent = nameContinent;
+        {
+            NameContinent = nameContinent;
+            count ++;
+        } 
     }
 
     // Клас "Океан"
@@ -16,7 +19,11 @@ namespace MainLab
         public string NameOcean { get; set; }
         public static int count { get; set; }
         public Ocean(string nameOcean)
-           => NameOcean = nameOcean;
+        {
+            NameOcean = nameOcean;
+            count ++;
+        }
+
 
     }
 
@@ -26,7 +33,10 @@ namespace MainLab
         public string NameIsland { get; set; }
         public static int count { get; set; }
         public Island(string nameIsland)
-           => NameIsland = nameIsland;
+        {
+            NameIsland = nameIsland;
+            count ++;
+        }
 
     }
 

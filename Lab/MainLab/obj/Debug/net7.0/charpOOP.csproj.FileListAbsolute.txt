@@ -1,0 +1,15 @@
+D:\charpOOP\charpOOP\Lab\MainLab\bin\Debug\net7.0\charpOOP.exe
+D:\charpOOP\charpOOP\Lab\MainLab\bin\Debug\net7.0\charpOOP.deps.json
+D:\charpOOP\charpOOP\Lab\MainLab\bin\Debug\net7.0\charpOOP.runtimeconfig.json
+D:\charpOOP\charpOOP\Lab\MainLab\bin\Debug\net7.0\charpOOP.dll
+D:\charpOOP\charpOOP\Lab\MainLab\bin\Debug\net7.0\charpOOP.pdb
+D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\charpOOP.csproj.AssemblyReference.cache
+D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\charpOOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\charpOOP.AssemblyInfoInputs.cache
+D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\charpOOP.AssemblyInfo.cs
+D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\charpOOP.csproj.CoreCompileInputs.cache
+D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\charpOOP.dll
+D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\refint\charpOOP.dll
+D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\charpOOP.pdb
+D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\charpOOP.genruntimeconfig.cache
+D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\ref\charpOOP.dll

@@ -4,6 +4,7 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Завдання 1\n");
         // Створюємо об'єкт планети
         Planet earth = new Planet("Земля");
 
@@ -44,7 +45,7 @@ class Program
         Console.WriteLine($"Hash code {earth.GetHashCode()}");
 
     //__________________________________________________________________________________________________________//
-
+    Console.WriteLine("\nЗавдання 2\n");
 
     int n = 5; // Задана кількість чотирикутників
 
