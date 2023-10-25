@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\charpOOPn\\charpOOP\\Lab\\MainLab\\MainLab.csproj": {}
+    "C:\\charpOOPn\\charpOOP-1\\Lab\\MainLab\\MainLab.csproj": {}
   },
   "projects": {
-    "C:\\charpOOPn\\charpOOP\\Lab\\MainLab\\MainLab.csproj": {
+    "C:\\charpOOPn\\charpOOP-1\\Lab\\MainLab\\MainLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\charpOOPn\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
+        "projectUniqueName": "C:\\charpOOPn\\charpOOP-1\\Lab\\MainLab\\MainLab.csproj",
         "projectName": "MainLab",
-        "projectPath": "C:\\charpOOPn\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
+        "projectPath": "C:\\charpOOPn\\charpOOP-1\\Lab\\MainLab\\MainLab.csproj",
         "packagesPath": "C:\\Users\\s1a6k\\.nuget\\packages\\",
-        "outputPath": "C:\\charpOOPn\\charpOOP\\Lab\\MainLab\\obj\\",
+        "outputPath": "C:\\charpOOPn\\charpOOP-1\\Lab\\MainLab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\s1a6k\\AppData\\Roaming\\NuGet\\NuGet.Config"

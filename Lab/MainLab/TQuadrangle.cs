@@ -3,7 +3,7 @@ namespace MainLab
     // Базовий клас TQuadrangle
     class TQuadrangle
     {
-        protected double[] sides;
+        public double[] sides;
 
         public TQuadrangle(double a, double b, double c, double d)
             => sides = new double[] { a, b, c, d };

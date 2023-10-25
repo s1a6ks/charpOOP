@@ -52,6 +52,7 @@ class Program
             Random random = new Random();
             TQuadrangle[] quadrangles = new TQuadrangle[n];
 
+
             for (int i = 0; i < n; i++)
             {
                 int shape = random.Next(3); // Вибираємо випадкову форму чотирикутника
@@ -68,6 +69,9 @@ class Program
                         quadrangles[i] = new Parallelogram(random.Next(1, 10), random.Next(1, 10), random.Next(1, 10));
                         break;
                 }
+            }
+            foreach(var item in quadrangles){
+                Console.WriteLine($"type = {item.GetType().Name}, area = {item.CalculateArea()}, perimeter = {item.CalculatePerimeter()}");
             }
 
             double sumOfRectanglesArea = 0;
