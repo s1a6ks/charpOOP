@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "jNtWt8QEe15046jFUidbs6VXZpt+fiDUmaUumdrr+cxMhts3MMdKxvY74nAFOzDWusw9UZM9Am9NoAS1tQHNLg==",
   "success": true,
   "projectFilePath": "D:\\charpOOP\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
+=======
+  "dgSpecHash": "r9CpBeh/gG8WCLu6CpzWOIr6lH/ZJhYZlxzVOdmwyickedMbpjIkY7oS8rNZQ0EoyZyMf3oTs7wChbB23U4nXw==",
+  "success": true,
+  "projectFilePath": "C:\\charpOOPn\\charpOOP-1\\Lab\\MainLab\\charpOOP.csproj",
+>>>>>>> a37dfb5884a20a2f8138a20d9fc101546ec96118
   "expectedPackageFiles": [],
   "logs": []
 }

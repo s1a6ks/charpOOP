@@ -13,3 +13,17 @@ D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\refint\charpOOP.dll
 D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\charpOOP.pdb
 D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\charpOOP.genruntimeconfig.cache
 D:\charpOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\ref\charpOOP.dll
+C:\charpOOPn\charpOOP-1\Lab\MainLab\bin\Debug\net7.0\charpOOP.exe
+C:\charpOOPn\charpOOP-1\Lab\MainLab\bin\Debug\net7.0\charpOOP.deps.json
+C:\charpOOPn\charpOOP-1\Lab\MainLab\bin\Debug\net7.0\charpOOP.runtimeconfig.json
+C:\charpOOPn\charpOOP-1\Lab\MainLab\bin\Debug\net7.0\charpOOP.dll
+C:\charpOOPn\charpOOP-1\Lab\MainLab\bin\Debug\net7.0\charpOOP.pdb
+C:\charpOOPn\charpOOP-1\Lab\MainLab\obj\Debug\net7.0\charpOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\charpOOPn\charpOOP-1\Lab\MainLab\obj\Debug\net7.0\charpOOP.AssemblyInfoInputs.cache
+C:\charpOOPn\charpOOP-1\Lab\MainLab\obj\Debug\net7.0\charpOOP.AssemblyInfo.cs
+C:\charpOOPn\charpOOP-1\Lab\MainLab\obj\Debug\net7.0\charpOOP.csproj.CoreCompileInputs.cache
+C:\charpOOPn\charpOOP-1\Lab\MainLab\obj\Debug\net7.0\charpOOP.dll
+C:\charpOOPn\charpOOP-1\Lab\MainLab\obj\Debug\net7.0\refint\charpOOP.dll
+C:\charpOOPn\charpOOP-1\Lab\MainLab\obj\Debug\net7.0\charpOOP.pdb
+C:\charpOOPn\charpOOP-1\Lab\MainLab\obj\Debug\net7.0\charpOOP.genruntimeconfig.cache
+C:\charpOOPn\charpOOP-1\Lab\MainLab\obj\Debug\net7.0\ref\charpOOP.dll

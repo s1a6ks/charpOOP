@@ -8,32 +8,30 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\s1a6k\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\s1a6k\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\charpOOP\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
       "projectName": "MainLab",
       "projectPath": "D:\\charpOOP\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
+=======
+      "projectUniqueName": "C:\\charpOOPn\\charpOOP-1\\Lab\\MainLab\\charpOOP.csproj",
+      "projectName": "charpOOP",
+      "projectPath": "C:\\charpOOPn\\charpOOP-1\\Lab\\MainLab\\charpOOP.csproj",
+>>>>>>> a37dfb5884a20a2f8138a20d9fc101546ec96118
       "packagesPath": "C:\\Users\\s1a6k\\.nuget\\packages\\",
-      "outputPath": "D:\\charpOOP\\charpOOP\\Lab\\MainLab\\obj\\",
+      "outputPath": "C:\\charpOOPn\\charpOOP-1\\Lab\\MainLab\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\s1a6k\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\s1a6k\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
