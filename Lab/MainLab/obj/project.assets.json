@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\charpOOP\\charpOOP\\Lab\\MainLab\\charpOOP.csproj",
-      "projectName": "charpOOP",
-      "projectPath": "D:\\charpOOP\\charpOOP\\Lab\\MainLab\\charpOOP.csproj",
+      "projectUniqueName": "D:\\charpOOP\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
+      "projectName": "MainLab",
+      "projectPath": "D:\\charpOOP\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
       "packagesPath": "C:\\Users\\s1a6k\\.nuget\\packages\\",
       "outputPath": "D:\\charpOOP\\charpOOP\\Lab\\MainLab\\obj\\",
       "projectStyle": "PackageReference",
