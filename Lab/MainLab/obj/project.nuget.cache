@@ -1,20 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "NMcZXuR6z0C2cN/4ZEcyhHVBdM12/eN9o7GsH9+2SX/vyunYJt8guxJAMNS56bEAEnwxmZESrjUvpiWsX245cA==",
+  "dgSpecHash": "6vx34eihziB8Wmddi7/2HIOVTCb9kvt8uopmUbud1qf33HC2pkAns4RiP8Zpne4NxrjwNuiYKq5rs+i/462MWQ==",
   "success": true,
-  "projectFilePath": "C:\\charpOOPn\\charpOOP-1\\Lab\\MainLab\\MainLab.csproj",
-=======
-<<<<<<< HEAD
-  "dgSpecHash": "jNtWt8QEe15046jFUidbs6VXZpt+fiDUmaUumdrr+cxMhts3MMdKxvY74nAFOzDWusw9UZM9Am9NoAS1tQHNLg==",
-  "success": true,
-  "projectFilePath": "D:\\charpOOP\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
-=======
-  "dgSpecHash": "r9CpBeh/gG8WCLu6CpzWOIr6lH/ZJhYZlxzVOdmwyickedMbpjIkY7oS8rNZQ0EoyZyMf3oTs7wChbB23U4nXw==",
-  "success": true,
-  "projectFilePath": "C:\\charpOOPn\\charpOOP-1\\Lab\\MainLab\\charpOOP.csproj",
->>>>>>> a37dfb5884a20a2f8138a20d9fc101546ec96118
->>>>>>> 45b2564dae4800d41ddc02d3ba4f379f0b678d80
+  "projectFilePath": "D:\\charpOOP\\Lab\\MainLab\\charpOOP.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша D:\\charpOOP\\Lab\\MainLab\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
