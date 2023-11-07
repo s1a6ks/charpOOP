@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cmrF+Ttg0wZ7mN6dgClVslqbF3khXrn8xNawg5N7vmiXV56Joinq1KjELCchrNFzdiYamYAue6CH0PFc3MMozg==",
+  "dgSpecHash": "nDJc7k3S/9Qnct58NmnZMqdizaXrZm9n4OdAhnrwW7Bomwt3qQJcJp+QF2k9dxlDdlxwHWN1n3uYB/IhgywY3g==",
   "success": true,
-  "projectFilePath": "C:\\csharplab\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
+  "projectFilePath": "D:\\dotnet\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
