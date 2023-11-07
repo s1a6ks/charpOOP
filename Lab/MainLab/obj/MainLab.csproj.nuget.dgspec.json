@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\charpOOP\\Lab\\MainLab\\MainLab.csproj": {}
+    "D:\\dotnet\\charpOOP\\Lab\\MainLab\\MainLab.csproj": {}
   },
   "projects": {
-    "D:\\charpOOP\\Lab\\MainLab\\MainLab.csproj": {
+    "D:\\dotnet\\charpOOP\\Lab\\MainLab\\MainLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
+        "projectUniqueName": "D:\\dotnet\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
         "projectName": "MainLab",
-        "projectPath": "D:\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
+        "projectPath": "D:\\dotnet\\charpOOP\\Lab\\MainLab\\MainLab.csproj",
         "packagesPath": "C:\\Users\\s1a6k\\.nuget\\packages\\",
-        "outputPath": "D:\\charpOOP\\Lab\\MainLab\\obj\\",
+        "outputPath": "D:\\dotnet\\charpOOP\\Lab\\MainLab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
