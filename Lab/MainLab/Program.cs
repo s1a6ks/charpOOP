@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using MainLab;
+﻿using MainLab;
 
 public class Program
 {
     public static void Main()
     {
         //task 1
-         
+        System.Console.WriteLine("\nTask 1");
         List<IShape> shapes = new List<IShape>
         {
             new Circle { Radius = 5.0 },
@@ -19,7 +17,7 @@ public class Program
         };
 
         PrintShapes.ProcessShapes(shapes);
-
+        System.Console.WriteLine("\nTask 2");
         //task 2
 
         List<Printable> printableItems = new List<Printable>
@@ -43,6 +41,7 @@ public class Program
         Bookstore.PrintBooks(printableItems);
 
         //task 3
+        System.Console.WriteLine("\nTask 3");
 
         // Створюємо список об'єктів одягу різних типів.
         List<Clothing> clothes = new List<Clothing>
