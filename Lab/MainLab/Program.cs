@@ -8,8 +8,7 @@ internal class Program
         Tarif tarif;
         try
         {
-            // Спроба створити тариф з порожньою назвою.
-            tarif = new Tarif("");
+            tarif = new Tarif("середня");
         }
         catch (NazvaException ex)
         {
