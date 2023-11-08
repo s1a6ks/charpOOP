@@ -1,0 +1,15 @@
+D:\dotnet\charpOOP\Lab\MainLab\bin\Debug\net7.0\MainLab.exe
+D:\dotnet\charpOOP\Lab\MainLab\bin\Debug\net7.0\MainLab.deps.json
+D:\dotnet\charpOOP\Lab\MainLab\bin\Debug\net7.0\MainLab.runtimeconfig.json
+D:\dotnet\charpOOP\Lab\MainLab\bin\Debug\net7.0\MainLab.dll
+D:\dotnet\charpOOP\Lab\MainLab\bin\Debug\net7.0\MainLab.pdb
+D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.csproj.AssemblyReference.cache
+D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.AssemblyInfoInputs.cache
+D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.AssemblyInfo.cs
+D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.csproj.CoreCompileInputs.cache
+D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.dll
+D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\refint\MainLab.dll
+D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.pdb
+D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.genruntimeconfig.cache
+D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\ref\MainLab.dll
