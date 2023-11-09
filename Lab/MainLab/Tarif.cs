@@ -3,25 +3,14 @@ namespace MainLab
     // Клас, що представляє тариф з властивістю "Назва".
     public class Tarif
     {
-        private string nazva;
+        public string nazva;
 
-        public string Nazva
-        {
-            get { return nazva; }
-            set
-            {
-                if (string.IsNullOrWhiteSpace(value))
-                {
-                    throw new NazvaException();
-                }
-                nazva = value;
-            }
-        }
+        
 
         // Конструктор класу Tarif, який приймає назву тарифу і перевіряє її на валідність.
         public Tarif(string nazva)
         {
-            Nazva = nazva;
+            this.nazva = nazva;
         }
     }
 

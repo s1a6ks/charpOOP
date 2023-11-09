@@ -1,9 +1,11 @@
-﻿using MainLab;
+﻿using System.ComponentModel;
+using MainLab;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
+
 
         Tarif tarif;
         try
@@ -26,8 +28,6 @@ internal class Program
 
         Console.WriteLine($"Вартість розмови за посекундним тарифом: {vartistRozmovyPossekundniy}");
         Console.WriteLine($"Вартість розмови за похвилинним тарифом: {vartistRozmovyPohvylynnyy}");
-
-
 
     }
 }
