@@ -17,25 +17,25 @@
 
         try
         {
-            // 1) Створіть каталог OOP_lab08 на диску D:
+            // 1) Створено каталог OOP_lab08 на диску D:
             Directory.CreateDirectory(rootDirectory);
 
-            // 2) Створіть необхідні каталоги
+            // 2) Створено необхідні каталоги
             Directory.CreateDirectory(groupDirectory);
             Directory.CreateDirectory(lastNameDirectory);
             Directory.CreateDirectory(sourcesDirectory);
             Directory.CreateDirectory(reportsDirectory);
             Directory.CreateDirectory(textsDirectory);
 
-            // 3) Скопіюйте каталоги Texts, Sources та Reports до каталогу Ваше_прізвище
+            // 3) Скопійовано каталоги Texts, Sources та Reports до каталогу 
             DirectoryCopy(textsDirectory, Path.Combine(lastNameDirectory, "Texts"));
             DirectoryCopy(sourcesDirectory, Path.Combine(lastNameDirectory, "Sources"));
             DirectoryCopy(reportsDirectory, Path.Combine(lastNameDirectory, "Reports"));
 
-            // 4) Перемістіть каталог Ваше_прізвище до каталогу Номер_вашої_групи
+            // 4) Переміщується каталог Goretsky до каталогу groutKNms1b23
             Directory.Move(lastNameDirectory, Path.Combine(groupDirectory, yourLastName));
 
-            // 5) У каталозі Texts створіть текстовий файл dirinfo.txt з інформацією про каталог
+            // 5) У каталозі Texts створено текстовий файл dirinfo.txt з інформацією про каталог
             string dirInfoFilePath = Path.Combine(textsDirectory, "dirinfo.txt");
             using (StreamWriter writer = File.CreateText(dirInfoFilePath))
             {
