@@ -13,3 +13,17 @@ D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\refint\MainLab.dll
 D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.pdb
 D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.genruntimeconfig.cache
 D:\dotnet\charpOOP\Lab\MainLab\obj\Debug\net7.0\ref\MainLab.dll
+C:\charpLabOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\charpLabOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.AssemblyInfoInputs.cache
+C:\charpLabOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.AssemblyInfo.cs
+C:\charpLabOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.csproj.CoreCompileInputs.cache
+C:\charpLabOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.dll
+C:\charpLabOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\refint\MainLab.dll
+C:\charpLabOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.pdb
+C:\charpLabOOP\charpOOP\Lab\MainLab\bin\Debug\net7.0\MainLab.exe
+C:\charpLabOOP\charpOOP\Lab\MainLab\bin\Debug\net7.0\MainLab.deps.json
+C:\charpLabOOP\charpOOP\Lab\MainLab\bin\Debug\net7.0\MainLab.runtimeconfig.json
+C:\charpLabOOP\charpOOP\Lab\MainLab\bin\Debug\net7.0\MainLab.dll
+C:\charpLabOOP\charpOOP\Lab\MainLab\bin\Debug\net7.0\MainLab.pdb
+C:\charpLabOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\MainLab.genruntimeconfig.cache
+C:\charpLabOOP\charpOOP\Lab\MainLab\obj\Debug\net7.0\ref\MainLab.dll
