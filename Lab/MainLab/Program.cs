@@ -1,33 +1,28 @@
-﻿using System.ComponentModel;
-using MainLab;
+﻿using System.Net.Mail;
+using System.ComponentModel;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
 
+        PosekundnyiTarif posekundnyiTarif = new PosekundnyiTarif("posecund");
+        posekundnyiTarif.VartistSekundy = 0.05;
+        double vartistRozmovy = posekundnyiTarif.RozrakhuvatyVartistRozmovy(100);
+        Console.WriteLine($"Вартість розмови посекундно: {vartistRozmovy}");
 
-        Tarif tarif;
         try
         {
-            tarif = new Tarif("середня");
+            Tarif tarif = new Tarif(null);
         }
         catch (NazvaException ex)
         {
             Console.WriteLine($"Помилка: {ex.Message}");
         }
 
-        PossekundniyTarif possekundniyTarif = new PossekundniyTarif { VartistSekundiRozmovy = 0.1 };
-        PohvylynnyyTarif pohvylynnyyTarif = new PohvylynnyyTarif { VartistHvylynyRozmovy = 0.5 };
-
-        int kilkistSekund = -100;
-
-        // Розрахунок вартості розмови за двома різними тарифами з перевіркою винятків.
-        double vartistRozmovyPossekundniy = possekundniyTarif.RozrahuvatyVartistRozmovy(kilkistSekund);
-        double vartistRozmovyPohvylynnyy = pohvylynnyyTarif.RozrahuvatyVartistRozmovy(kilkistSekund);
-
-        Console.WriteLine($"Вартість розмови за посекундним тарифом: {vartistRozmovyPossekundniy}");
-        Console.WriteLine($"Вартість розмови за похвилинним тарифом: {vartistRozmovyPohvylynnyy}");
-
+        PohvilynnyiTarif pohvilynnyiTarif = new PohvilynnyiTarif("pohvilin");
+        Abonent abonent = new Abonent("Goretsky M.I.", "0678761694", 150.00);
+        Company company = new Company("company", pohvilynnyiTarif, abonent);
+        Console.WriteLine($"Company: {company.Name}, Tarif: {company.Tarif.Nazva}\nAbonent: {company.Abonent.PIB}, {company.Abonent.NomerTelefonu}, balance: {company.Abonent.ZalishokNaRahunku}");
     }
 }
