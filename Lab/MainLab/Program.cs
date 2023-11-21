@@ -6,11 +6,11 @@
 
         string driveLetter = "D:";
         string groupName = "GroupKNms1b23"; 
-        string yourLastName = "Goretsky"; 
+        string LastName = "Goretsky"; 
 
         string rootDirectory = Path.Combine(driveLetter, "OOP_lab08");
         string groupDirectory = Path.Combine(rootDirectory, groupName);
-        string lastNameDirectory = Path.Combine(rootDirectory, yourLastName);
+        string lastNameDirectory = Path.Combine(rootDirectory, LastName);
         string sourcesDirectory = Path.Combine(rootDirectory, "Sources");
         string reportsDirectory = Path.Combine(rootDirectory, "Reports");
         string textsDirectory = Path.Combine(rootDirectory, "Texts");
@@ -33,7 +33,7 @@
             DirectoryCopy(reportsDirectory, Path.Combine(lastNameDirectory, "Reports"));
 
             // 4) Переміщується каталог Goretsky до каталогу groutKNms1b23
-            Directory.Move(lastNameDirectory, Path.Combine(groupDirectory, yourLastName));
+            Directory.Move(lastNameDirectory, Path.Combine(groupDirectory, LastName));
 
             // 5) У каталозі Texts створено текстовий файл dirinfo.txt з інформацією про каталог
             string dirInfoFilePath = Path.Combine(textsDirectory, "dirinfo.txt");
