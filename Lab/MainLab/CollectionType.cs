@@ -1,67 +1,70 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
 
-namespace MainLab
+public class CollectionType<T> : IEnumerable<T>
 {
-    
-public class CollectionType<T>
-{
-    private List<T> items;
+    private List<T> collection;
 
+    // Конструктор за замовчуванням
     public CollectionType()
     {
-        items = new List<T>();
+        collection = new List<T>();
     }
 
-    public CollectionType(IEnumerable<T> collection)
+    // Конструктор, який приймає початковий набір елементів
+    public CollectionType(IEnumerable<T> initialItems)
     {
-        items = new List<T>(collection);
+        collection = new List<T>(initialItems);
     }
 
+    // Кількість елементів в колекції
+    public int Count => collection.Count;
+
+    // Додавання елемента до колекції
     public void Add(T item)
     {
-        items.Add(item);
+        collection.Add(item);
     }
 
+    // Видалення елемента з колекції
     public bool Remove(T item)
     {
-        return items.Remove(item);
+        return collection.Remove(item);
     }
 
-    public int Count
+    // Очищення колекції
+    public void Clear()
     {
-        get { return items.Count; }
+        collection.Clear();
     }
 
+    // Перевантажений індексатор для отримання та встановлення значень за індексом
     public T this[int index]
     {
-        get { return items[index]; }
-        set { items[index] = value; }
+        get
+        {
+            if (index < 0 || index >= collection.Count)
+                throw new IndexOutOfRangeException("Index is out of range");
+            return collection[index];
+        }
+        set
+        {
+            if (index < 0 || index >= collection.Count)
+                throw new IndexOutOfRangeException("Index is out of range");
+            collection[index] = value;
+        }
     }
-}
-    
-    public class CharacteristicsPEOM : IComparable<CharacteristicsPEOM>
+
+    // Реалізація інтерфейсу IEnumerable<T>
+    public IEnumerator<T> GetEnumerator()
     {
-    public string Processor { get; set; } = "";
-    public int Frequency { get; set; } = 0;
-    public int RAM { get; set; } = 0;
-    public string Type { get; set; } = "";
+        return collection.GetEnumerator();
+    }
 
-    public CharacteristicsPEOM(string processor, int frequency, int RAM, string type)
+    // Реалізація інтерфейсу IEnumerable
+    IEnumerator IEnumerable.GetEnumerator()
     {
-        Processor = processor;
-        Frequency = frequency;
-        this.RAM = RAM;
-        Type = type;
+        return collection.GetEnumerator();
     }
-
-    public int CompareTo(CharacteristicsPEOM other)
-    {
-        // Порівнюємо екземпляри за полем Frequency
-        return Frequency.CompareTo(other.Frequency);
-    }
-
-    public override string ToString()
-    => $"Processor: {Processor}, frequency: {Frequency}, RAM:{RAM}, type: {Type}";
-    }
-
 }

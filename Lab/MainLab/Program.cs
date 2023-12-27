@@ -1,66 +1,118 @@
 ﻿using MainLab;
-using System.Linq;
 
-// internal class Program
-// {
-//     private static void Main(string[] args)
-//     {
-//         CollectionType<CharacteristicsPEOM> pc = new CollectionType<CharacteristicsPEOM>();
-//         pc.Add(new CharacteristicsPEOM("Intel Core i7", 3600, 16, "Desktop"));
-//         pc.Add(new CharacteristicsPEOM("AMD Ryzen 5", 3200, 8, "Laptop"));
-//         pc.Add(new CharacteristicsPEOM("Intel Core i9", 4500, 32, "Workstation"));
+class Program
+{
+    static void Main()
+    {
+        // Завдання 1
 
+        CollectionType<int> intCollection = new CollectionType<int>();
+        intCollection.Add(1);
+        intCollection.Add(2);
+        intCollection.Add(3);
 
-//         pc = new CollectionType<CharacteristicsPEOM>(pc.OrderBy(p => p));
+        Console.WriteLine("Elements in collection:");
+        foreach (var item in intCollection)
+        {
+            Console.WriteLine(item);
+        }
 
-//         // LINQ-запит
-//         var result = from person in pc
-//                      where person.Age > 30
-//                      select person.Name;
+        // Завдання 2
 
-//         foreach (var name in result)
-//         {
-//             Console.WriteLine(name);
-//         }
+        List<CharacteristicsPEOM> collection = new()
+        {
+            new CharacteristicsPEOM("Intel", 3000, 8, "Desktop"),
+            new CharacteristicsPEOM("AMD", 2500, 16, "Laptop"),
+            new CharacteristicsPEOM("ARM", 2000, 4, "Mobile")
+        };
 
-//         var query1 = pc.Where(p => p.Age > 25)
-//             .OrderByDescending(p => p.Age)
-//             .Select(p => p.Name)
-//             .Take(2);
+        // Сортування за частотою (Frequency)
+        collection.Sort();
 
-//         var query2 = pc
-//             .GroupBy(p => p.Age / 10)
-//             .Select(group => new { AgeGroup = group.Key, Count = group.Count() });
+        // LINQ-запит для вибору елементів з RAM більше 8
+        var result = from item in collection
+                     where item.RAM > 8
+                     select item;
 
-//         var query3 = pc
-//             .Join(pc, p1 => p1.Name, p2 => p2.Name, (p1, p2) => new { p1.Name, AgeDiff = p1.Age - p2.Age })
-//             .Where(p => p.AgeDiff > 5);
+        // Виведення результатів
+        Console.WriteLine("Сортована колекція:");
+        foreach (var item in collection)
+        {
+            Console.WriteLine(item);
+        }
 
-//         var query4 = pc
-//             .TakeWhile(p => p.Age < 35)
-//             .OrderBy(p => p.Age)
-//             .Skip(1);
+        Console.WriteLine("\nЕлементи з RAM більше 8:");
+        foreach (var item in result)
+        {
+            Console.WriteLine(item);
+        }
 
-//         var query5 = pc
-//             .SelectMany(p => p.Processor.Split(''))
-//             .Distinct();
+        // Завдання 3
 
-//         List<string> stringList = new List<string>();
-//         stringList.Add("apple");
-//         stringList.Add("banana");
-//         stringList.Add("cherry");
+        // Складний LINQ-запит 1: Знаходження середньої частоти для об'єктів з RAM більше 8
+        double averageFrequency = collection
+            .Where(item => item.RAM > 8)
+            .Select(item => item.Frequency)
+            .Average();
+        Console.WriteLine($"Середня частота для об'єктів з RAM більше 8: {averageFrequency}");
 
-//         Console.WriteLine("Зміст колекції:");
-//         foreach (string item in stringList)
-//         {
-//             Console.WriteLine(item);
-//         }
+        //  LINQ-запит 2: Вибір та сортування об'єктів за типом, а потім взяття перших двох
+        var selectedAndSorted = collection
+            .OrderBy(item => item.Type)
+            .Take(2);
+        Console.WriteLine("Перші два об'єкти, відсортовані за типом:");
+        foreach (var item in selectedAndSorted)
+        {
+            Console.WriteLine(item);
+        }
 
-//         string searchValue = "banana";
-//         bool containsSearchValue = stringList.Contains(searchValue);
-//         int countOfLength3 = stringList.Count(s => s.Length == 3);
+        //  LINQ-запит 3: Визначення, чи є хоча б один об'єкт з частотою більше 2500
+        bool anyWithFrequencyOver2500 = collection.Any(item => item.Frequency > 2500);
+        Console.WriteLine($"Хоча б один об'єкт з частотою більше 2500? {anyWithFrequencyOver2500}");
 
-//         stringList.Sort(); // сортування у зростаючому порядку
-//         stringList.Reverse(); // сортування у спадаючому порядку
-//     }
-// }
+        //  LINQ-запит 4: Групування об'єктів за типом та підрахунок кількості об'єктів у кожній групі
+        var groupedByType = collection
+            .GroupBy(item => item.Type)
+            .Select(group => new
+            {
+                Type = group.Key,
+                Count = group.Count()
+            });
+        Console.WriteLine("Групування об'єктів за типом та підрахунок кількості у кожній групі:");
+        foreach (var group in groupedByType)
+        {
+            Console.WriteLine($"{group.Type}: {group.Count} об'єктів");
+        }
+
+        //  LINQ-запит 5: Знаходження об'єкта з максимальною частотою та виведення інформації про нього
+        var maxFrequencyObject = collection
+            .OrderByDescending(item => item.Frequency)
+            .First();
+        Console.WriteLine("Об'єкт з максимальною частотою:");
+        Console.WriteLine(maxFrequencyObject);
+
+        // Завдання 4
+
+        // Створення екземпляру CollectionManager для рядків
+        CollectionManager<string> stringCollectionManager = new CollectionManager<string>();
+
+        // Додавання елементів
+        stringCollectionManager.AddElements(1, new List<string> { "abc", "def", "ghi" });
+        stringCollectionManager.AddElements(2, new List<string> { "jkl", "mno", "pqr" });
+
+        // Виведення колекції
+        stringCollectionManager.PrintCollection();
+
+        // Пошук та виведення
+        string searchValue = "abc";
+        stringCollectionManager.SearchAndPrint(searchValue);
+
+        // Підрахунок та виведення
+        int lengthToCount = 4;
+        stringCollectionManager.CountAndPrintByLength(lengthToCount);
+
+        // Сортування та виведення
+        bool ascending = true;
+        stringCollectionManager.SortAndPrint(ascending);
+    }
+}
